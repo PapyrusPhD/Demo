@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    margin: 0 auto;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 24px;
+
+    width: 1056px;
+    height: 64px;
+
+    flex: none;
+    align-self: stretch;
+    order: 0;
+    flex-grow: 0;
+}
+
+h2 {
+    width: 130px;
+    height: 40px;
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 1056px;
+    height: 428px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+
+.bullet1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 1056px;
+    height: 252px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bullet2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 16px;
+    gap: 4px;
+
+    width: 1056px;
+    height: 40px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bullet3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 16px 2px 0px;
+    gap: 4px;
+
+    width: 1056px;
+    height: 40px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bulletLabel1 {
+
+    width: 92px;
+    height: 24px;
+    
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #3D4142;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bulletLabel2 {
+    width: 118px;
+    height: 24px;
+    
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #202223;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bullet4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 2px;
+    gap: 4px;
+
+    width: 1056px;
+    height: 24px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.bullet4 .bulletLabel1 {
+    width: 110px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D4142;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bullet4 .bulletLabel2 {
+    width: 103px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #202223;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bullet5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 2px 16px;
+    gap: 4px;
+
+    width: 1056px;
+    height: 40px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bullet5 .bulletLabel1 {
+    width: 153px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #3D4142;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bullet5 .bulletLabel2 {
+    width: 89px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #B81F39;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bullet6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 24px;
+    gap: 4px;
+
+    width: 984px;
+    height: 40px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.bullet6 p {
+    width: 984px;
+    height: 16px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #71777A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.selectPayment1 {
+    width: 183px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #3D4142;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.selectPayment2 {
+    width: 164px;
+    height: 24px;
+
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #202223;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.scrollContent {
+    width: 1056px;
+    height: 208px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    
+    width: 1056px;
+    height: 208px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4F5;
+    border-radius: 4px;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1024px;
+    height: 80px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1024px;
+    height: 80px;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card1 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+
+    width: 330.67px;
+    height: 80px;
+    background: #FFFFFF;
+
+    border: 1px solid #C3C8CB;
+    border-radius: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card1:hover {
+    background: #E1F8FF;
+    color: #007EB8;
+}
+
+.card2:hover {
+    background: #E1F8FF;
+    color: #007EB8;
+}
+
+.card3:hover {
+    background: #E1F8FF;
+    color: #007EB8;
+}
+
+.card4:hover {
+    background: #E1F8FF;
+    color: #007EB8;
+}
+
+.card5:hover {
+    background: #E1F8FF;
+    color: #007EB8;
+}
+
+.card2 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+
+    width: 330.67px;
+    height: 80px;
+    background: #FFFFFF;
+
+    border: 1px solid #C3C8CB;
+    border-radius: 16px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card3 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+
+    width: 330.67px;
+    height: 80px;
+    background: #FFFFFF;
+
+    border: 1px solid #C3C8CB;
+    border-radius: 16px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.card4 {
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    
+    width: 330.67px;
+    height: 80px;
+    
+    background: #FFFFFF;
+
+    border: 1px solid #C3C8CB;
+    border-radius: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card5 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+
+    width: 330.67px;
+    height: 80px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #C3C8CB;
+    border-radius: 16px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 12px 32px;
+    gap: 10px;
+
+    width: 226px;
+    height: 48px;
+
+    background: #EAEBEB;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    text-decoration: none;
+
+    font-family: 'Sun Life New Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #5B6062;
+
+}
+
+a:hover {
+    background: #FFCB05;
+    color: #004570;
+}
+
+.cards p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+/* payment.html css */
+
+.notification {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+
+    width: 1056px;
+    height: 56px;
+
+    background: #F0FCEE;
+    border-left: 4px solid #25611C;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.notification .checkCircle {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.notification .iconPadding {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.notification .icon {
+    position: absolute;
+    border: 1px solid #25611C;
+}
+
+.notification .dismiss {
+}
+
+.notification p {
+    position: relative;
+    height: 24px;
+    font-family: 'Sun Life Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202223;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
